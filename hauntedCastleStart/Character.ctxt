@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\n\ Class\ Character\n\ A\ character\ in\ the\ game.\n\ \n\ @author\ Olaf\ Chitil\ and\ dhrue\ raja\n\ @version\ 16/2/2020\n
+comment1.params=loc
+comment1.target=Character(Room)
+comment1.text=\n\ Constructor\ setting\ a\ location.\n\ Pre-condition\:\ location\ is\ not\ null.\n
+comment2.params=
+comment2.target=void\ sane()
+comment2.text=\n\ Class\ invariant\:\ location\ is\ never\ null.\n
+comment3.params=
+comment3.target=Room\ getLocation()
+comment3.text=\n\ Get\ current\ location\ of\ character.\n
+comment4.params=loc
+comment4.target=void\ move(Room)
+comment4.text=\n\ Move\ character\ to\ a\ given\ room.\n\ This\ involves\ removing\ the\ character\ from\ the\ room\ it\ was\ before.\n\ Works\ also\ if\ previous\ and\ new\ room\ are\ the\ same.\n\ Pre-condition\:\ room\ is\ not\ null.\n
+numComments=5

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\n\ This\ class\ is\ part\ of\ the\ "Haunted\ Castle"\ application.\ \n\ "Haunted\ Castle"\ is\ a\ very\ simple,\ text\ based\ travel\ game.\ \ \n\ \n\ This\ parser\ reads\ user\ input\ and\ tries\ to\ interpret\ it\ as\ a\n\ command.\ Every\ time\ it\ is\ called\ it\ reads\ a\ line\ from\ the\ terminal\ and\n\ tries\ to\ interpret\ the\ line\ as\ a\ two-word\ command.\ It\ returns\ the\ command\n\ as\ an\ object\ of\ interface\ Command.\n\n\ The\ parser\ has\ a\ set\ of\ known\ command\ words.\ It\ checks\ user\ input\ against\n\ the\ known\ commands,\ and\ if\ the\ input\ is\ not\ one\ of\ the\ known\ commands,\ it\n\ returns\ a\ command\ that\ says\ that\ input\ command\ is\ unknown.\n\ \n\ @author\ \ Michael\ K\u00F6lling,\ David\ J.\ Barnes\ and\ Olaf\ Chitil\n\ @version\ 3/2/2020\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\n
+comment2.params=
+comment2.target=Command\ getCommand()
+comment2.text=\n\ @return\ The\ next\ command\ from\ the\ user.\n
+comment3.params=tokenizer\ map
+comment3.target=java.lang.Object\ parseEnum(java.util.Scanner,\ java.util.HashMap)
+comment3.text=\n\ Parse\ an\ value\ of\ a\ type\ that\ is\ an\ Enum.\n\ The\ mapping\ from\ strings\ to\ values\ of\ the\ type\ is\ in\ the\ map.\n\ Pre-condition\:\ tokenizer\ is\ not\ null\ and\ map\ is\ not\ null.\n\ If\ parsing\ fails,\ the\ result\ is\ null.\n
+comment4.params=
+comment4.target=java.lang.String\ commands()
+comment4.text=\n\ Returns\ a\ list\ of\ valid\ commands.\n
+comment5.params=
+comment5.target=java.lang.String\ help()
+comment5.text=\n\ Returns\ name\ of\ help\ command.\n
+comment6.params=
+comment6.target=java.lang.String\ look()
+numComments=7

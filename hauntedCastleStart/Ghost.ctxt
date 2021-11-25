@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ghost
+comment0.text=\n\ Class\ Ghost\n\ A\ ghost\ in\ the\ castle.\n\ \n\ @author\ Olaf\ Chitil\ and\ dhrue\ raja\n\ @version\ 16/2/2020\n
+comment1.params=loc\ desc
+comment1.target=Ghost(Room,\ java.lang.String)
+comment1.text=\n\ Constructor\ initialising\ location\ and\ description.\n\ Pre-condition\:\ location\ not\ null.\n\ Pre-condition\:\ description\ not\ null.\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Return\ the\ description.\n
+comment3.params=rooms
+comment3.target=void\ goRandom(java.util.List)
+comment3.text=\n\ Go\ to\ a\ random\ room.\n\ @param\ rooms\ all\ rooms\ available\n\ Pre-condition\:\ the\ list\ is\ not\ empty.\n
+numComments=4

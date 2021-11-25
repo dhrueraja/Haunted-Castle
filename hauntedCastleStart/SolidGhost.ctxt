@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SolidGhost
+comment0.text=\n\ Class\ SolidGhost\n\ A\ solid\ ghost\ in\ the\ castle.\n\ \n\ @author\ Olaf\ Chitil\n\ @version\ 4/2/2020\n
+comment1.params=loc\ desc
+comment1.target=SolidGhost(Room,\ java.lang.String)
+comment1.text=\n\ Constructor\ initialising\ location\ and\ description.\n\ Pre-condition\:\ location\ not\ null.\n\ Pre-condition\:\ description\ not\ null.\n
+comment2.params=rooms
+comment2.target=void\ goRandom(java.util.List)
+comment2.text=\n\ Go\ to\ a\ random\ neighbouring\ room.\n\ If\ there\ is\ no\ neighbour,\ then\ stay\ in\ current\ room.\n\ @param\ rooms\ all\ rooms\ available\ -\ actually\ ignored\n
+numComments=3

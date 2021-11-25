@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GameMain
+comment0.text=\n\ \ This\ class\ is\ the\ main\ class\ of\ the\ "Haunted\ Castle"\ application.\ \n\ \ It\ provids\ a\ text-based\ user\ interface\ to\ the\ "Haunted\ Castle".\n\ \ "Haunted\ Castle"\ is\ a\ very\ simple,\ text\ based\ travel\ game.\ \ Users\ \n\ \ can\ walk\ around\ a\ castle.\ That's\ all.\ It\ should\ really\ be\ extended\ \n\ \ to\ make\ it\ more\ interesting\!\n\ \n\ \ To\ play\ this\ game,\ create\ an\ instance\ of\ this\ class\ and\ call\ the\ "play"\n\ \ method.\n\ \n\ @author\ Michael\ K\u00F6lling,\ David\ J.\ Barnes\ and\ Olaf\ Chitil\n\ @version\ 3/2/2020\n
+comment1.params=
+comment1.target=GameMain()
+comment1.text=\n\ Initialise.\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\n\ \ Main\ play\ routine.\ \ Loops\ until\ end\ of\ play.\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Main\ method;\ used\ if\ the\ game\ is\ standalone,\ outside\ BlueJ.\n
+comment4.params=
+comment4.target=java.lang.String\ getHelp()
+comment4.text=\n\ Tell\ player\ how\ to\ obtain\ help.\n
+comment5.params=
+comment5.target=java.lang.String\ getCommands()
+comment5.text=\n\ Tell\ player\ available\ commands.\n
+numComments=6
